@@ -32,7 +32,7 @@ export const ProfileProvider = ({ children }) => {
           userRef.off();
         }
         setProfile(null);
-        setIsLoading(true);
+        setIsLoading(false);
       }
     });
 
